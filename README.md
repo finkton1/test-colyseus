@@ -41,3 +41,6 @@ Production files will be placed in the `www` folder. Then upload those files to 
         android:usesCleartextTraffic="true">
         
     -Run emulator with Android API 29+
+    -Should get:
+        Listening on ws://localhost:2567
+        client joined the room -  ia4D06pyM
