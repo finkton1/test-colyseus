@@ -44,3 +44,5 @@ Production files will be placed in the `www` folder. Then upload those files to 
     -Should get:
         Listening on ws://localhost:2567
         client joined the room -  ia4D06pyM
+        
+    -Expected result: When mobile screen is powered off and enters sleep, colyseus server recognizes dropped websocket. Currently takes 3 minutes+ for it to recognize. Use to take seconds.
