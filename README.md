@@ -26,4 +26,8 @@ Production files will be placed in the `www` folder. Then upload those files to 
     -npm run build (this builds the www folder we need for capacitor to create android app)
     -npx cap add android
     -npx cap open android (opens project in android studio)
+    -You will need to edit the App-> Manifests -> AndroidManifest.xml file thru Android Studio, to add this into <application> tag (in order for the app to recognize colyseus local server):
+
+        android:usesCleartextTraffic="true"
+        
     -Run emulator with Android API 29+
